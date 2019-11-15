@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=cntxcoin
+Comment=CNTX P2P Cryptocurrency
+Exec=cntxcoin-qt %u
+Terminal=false
+Type=Application
+Icon=cntxcoin128
+MimeType=x-scheme-handler/cntxcoin;
+Categories=Office;Finance;
+Name[ru]=cntxcoin-qt.desktop.desktop

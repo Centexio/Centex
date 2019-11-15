@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/cntxcoin_bg.qm</file>
+        <file alias="ca">locale/cntxcoin_ca.qm</file>
+        <file alias="cs">locale/cntxcoin_cs.qm</file>
+        <file alias="da">locale/cntxcoin_da.qm</file>
+        <file alias="de">locale/cntxcoin_de.qm</file>
+        <file alias="en">locale/cntxcoin_en.qm</file>
+        <file alias="en_US">locale/cntxcoin_en_US.qm</file>
+        <file alias="es">locale/cntxcoin_es.qm</file>
+        <file alias="fi">locale/cntxcoin_fi.qm</file>
+        <file alias="fr_FR">locale/cntxcoin_fr_FR.qm</file>
+        <file alias="it">locale/cntxcoin_it.qm</file>
+        <file alias="ja">locale/cntxcoin_ja.qm</file>
+        <file alias="ko_KR">locale/cntxcoin_ko_KR.qm</file>
+        <file alias="nl">locale/cntxcoin_nl.qm</file>
+        <file alias="pl">locale/cntxcoin_pl.qm</file>
+        <file alias="pt">locale/cntxcoin_pt.qm</file>
+        <file alias="pt_BR">locale/cntxcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/cntxcoin_ro_RO.qm</file>
+        <file alias="ru">locale/cntxcoin_ru.qm</file>
+        <file alias="sk">locale/cntxcoin_sk.qm</file>
+        <file alias="sv">locale/cntxcoin_sv.qm</file>
+        <file alias="tr">locale/cntxcoin_tr.qm</file>
+        <file alias="uk">locale/cntxcoin_uk.qm</file>
+        <file alias="zh_CN">locale/cntxcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/cntxcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

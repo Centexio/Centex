@@ -1,0 +1,26 @@
+[Unit]
+Description=cntxcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=cntxcoin
+Group=cntxcoin
+
+Type=forking
+PIDFile=/var/lib/cntxcoind/cntxcoind.pid
+
+ExecStart=/usr/bin/cntxcoind -daemon -pid=/var/lib/cntxcoind/cntxcoind.pid \
+          -conf=/etc/cntxcoin/cntxcoin.conf -datadir=/var/lib/cntxcoind
+
+ExecStop=-/usr/bin/cntxcoin-cli -conf=/etc/cntxcoin/cntxcoin.conf \
+         -datadir=/var/lib/cntxcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

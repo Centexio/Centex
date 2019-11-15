@@ -1,0 +1,11 @@
+[Protocol]
+exec=cntxcoin-qt '%u'
+protocol=cntxcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

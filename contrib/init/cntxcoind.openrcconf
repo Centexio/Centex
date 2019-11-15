@@ -1,0 +1,26 @@
+# /etc/conf.d/cntxcoind: config file for /etc/init.d/cntxcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/cntxcoin/cntxcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/cntxcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/cntxcoind.pid"
+
+# Where to write cntxcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/cntxcoind"
+
+# User and group to own cntxcoind process
+#BITCOIND_USER="cntxcoin"
+#BITCOIND_GROUP="cntxcoin"
+
+# Path to cntxcoind executable
+#BITCOIND_BIN="/usr/bin/cntxcoind"
+
+# Nice value to run cntxcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
