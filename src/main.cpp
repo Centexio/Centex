@@ -1090,8 +1090,8 @@ bool CheckTransactionForMasternodeUnspent(const CTransaction& tx, CValidationSta
             if (it != mapBlockIndex.end())
                pindex = it->second;
             else
-               return state.DoS(100, error("CheckTransactionForMasternodeUnspent() :  failed to find block index"));
-
+               //return state.DoS(100, error("CheckTransactionForMasternodeUnspent() :  failed to find block index"));
+		return true; 
             // need to find the height of tx that is being checked.
             int actualHeight = chainActive.Tip()->nHeight; //kinda wrong, but seems to work fine
 
