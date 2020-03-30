@@ -1,6 +1,4 @@
-IDI_ICON1 ICON DISCARDABLE "dblue/icons/cntxcoin.ico"
-IDI_ICON2 ICON DISCARDABLE "dark/icons/cntxcoin.ico"
-IDI_ICON3 ICON DISCARDABLE "icons/cntxcoin.ico"
+IDI_ICON1 ICON DISCARDABLE "icons/cntxcoin.ico"
 
 #include <windows.h>             // needed for VERSIONINFO
 #include "../../clientversion.h" // holds the needed client version information
