@@ -138,6 +138,10 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
+        
+        vSeeds.push_back(CDNSSeedData("1", "104.248.134.77"));      // node 1 address
+        vSeeds.push_back(CDNSSeedData("2", "167.172.180.255"));       // node 2 address
+        vSeeds.push_back(CDNSSeedData("3", "167.172.163.122"));       // node 3 address
 
 
         // addresses start with 'C'
